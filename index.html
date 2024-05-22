@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Currency Converter</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="main.js"></script>
+</head>
+<body>
+
+	<div id="calculator">
+		<img id="money-image" src="https://static.vecteezy.com/system/resources/previews/019/617/753/large_2x/group-of-money-symbol-png.png">
+		<header><b>Currency Converter</b></header>
+
+	<div id = "input">
+		<label>US Dollar:</label><input id="usd" type="number" side="20" onkeyup="convertCurrency('usd')">
+	</div>
+	<div id = "input">
+		<label>Euro:</label><input id="euro" type="number" side="20" onkeyup="convertCurrency('euro')">
+	</div>
+	<div id = "input">
+		<label>British Pound:</label><input id="pound" type="number" side="20" onkeyup="convertCurrency('pound')">
+	</div>
+	<div id = "input">
+		<label>Canadian Dollar:</label><input id="cad" type="number" side="20" onkeyup="convertCurrency('cad')">
+	</div>
+	<div id = "input">
+		<label>Indian Rupee:</label><input id="rupee" type="number" side="20" onkeyup="convertCurrency('rupee')">
+	</div>
+	<div id = "input">
+		<label>Philippine Peso:</label><input id="peso" type="number" side="20" onkeyup="convertCurrency('peso')">
+	</div>
+	<div id = "input">
+		<label>Japanese Yen:</label><input id="yen" type="number" side="20" onkeyup="convertCurrency('yen')">
+	</div>
+	<div id = "input">
+		<label>Bitcoin:</label><input id="bitcoin" type="number" side="20" onkeyup="convertCurrency('bitcoin')">
+	</div>
+
+<!-- buttons :3 -->
+
+		<button id="clear" type="button" onclick="reset()">Clear Fields</button>
+		<footer>
+			<p>Rates as of May 22, 2024</p>
+		</footer>
+	</div>
+
+</body>
+</html>
